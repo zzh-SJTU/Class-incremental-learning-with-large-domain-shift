@@ -1,2 +1,4 @@
 # Class-incremental-learning-with-large-domain-shift
-Exploring class-incremental learning with large domain shift for image classification.
+Exploring class-incremental learning with large domain shift for image classification.  
+
+    python3 -u main_code/main.py --datasets mnist --num-tasks 5 --network resnet50 --nepochs 10 --batch-size 32 --approach lwf
